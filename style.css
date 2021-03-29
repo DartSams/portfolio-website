@@ -29,6 +29,7 @@ header{
     background-color:rgb(44, 44, 46);
     /* background-color:transparent; */
     opacity:0.8;
+    
 }
 
 .logo{
@@ -105,6 +106,7 @@ img:hover{
     position:absolute;
     top: 130px;
     left: 400px;
+
     /* list-style: none;
     display:flex;
     justify-content: space-between; */
@@ -165,12 +167,11 @@ aside p{
     margin-top: 8%;
 }
 
-ul{
+/* ul{
     margin-left: 17%;
     list-style-type: none;
     width:70%;
     display:flex;
-    display:absolute;
 }
 
 .project-lst-item{
@@ -184,11 +185,40 @@ ul{
     height:auto;
 }
 
-ul a{
+main ul a{
     color: white;
     width:70%;
     height:auto;
     font-size: 25px;
     padding-left:10px;
     margin-bottom:30px;
+} */
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 20%; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    /* padding: 20px 50px; */
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 25%;
+  /* padding: 0 4px; */
+  margin: 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  /* vertical-align: middle; */
+}
+
+
+.finished-projects{
+    margin-bottom: 30%;
 }
