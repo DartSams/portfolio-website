@@ -1,0 +1,159 @@
+/* 
+
+@media (max-width:375px) {
+    header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position:relative;
+        right:20px;
+        bottom:10px;
+    }
+
+    header ul li a{
+        display: flex;
+        width: 100%;
+        background-color:blue;
+        color:white;
+        padding:8px 45%;
+        text-decoration: none;
+        
+    }
+
+    li a:hover{
+        background-color:red;
+    }
+
+    .active{
+        background-color:red;
+    }
+}
+
+@media (min-width:1280px){
+    header ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+        background-color: blue;
+    }
+
+    header ul li{
+        display:inline;
+        float: left;
+        color:white;
+    }
+
+    header a{
+        display: block;
+        padding:10px;
+        text-decoration: none;
+    }
+
+    .active{
+        background-color: red;
+    }
+} */
+
+
+
+
+/* ##laptop## */
+@media (min-width:1280px){
+    header ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color:rgb(240, 15, 15);
+        overflow: hidden;
+    }
+
+    header li{
+        display:inline;
+        
+        float:right;
+    }
+
+    header a{
+        text-decoration:none;
+        display:block;
+        padding:10px;
+        color:white;
+    }
+
+    .active{
+        background-color:blue;
+    }
+
+    header a:hover{
+        background-color:blue;
+    }
+}
+
+
+/* ##Responsive iphone X## */
+@media (max-width:375px){
+    header ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color:black
+    }
+
+    header li{
+        display:block;
+        width:100%;
+        
+    }
+
+    header a{
+        display:block;
+        color:white;
+        padding:10px;
+    }
+
+    header a:hover{
+        background-color:green;
+    }
+}
+
+
+/* ul{
+    display:flex;
+    flex-direction: row;
+    background-color: blue;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+}
+
+ul li{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+ul a{
+    text-decoration:none;
+} */
+
+/* .row{
+    display:flex;
+    flex-direction:row;
+    padding: 10px 30px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+    padding: 10px 30px
+} */
+
+/* main{
+    display:absolute;
+    left:45%
+} */
