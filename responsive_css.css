@@ -88,6 +88,20 @@
     header a:hover{
         background-color:blue;
     }
+
+    .row{
+    display:flex;
+    flex-direction:row;
+    padding: 10px 30px;
+    justify-content: center;
+    margin-top: 10%;
+    }
+
+    .column{
+        display:flex;
+        flex-direction:column;
+        padding: 10px 30px
+    }
 }
 
 
